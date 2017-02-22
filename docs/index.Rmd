@@ -3,7 +3,7 @@ title: Assessing General Education Program Outcomes
 subtitle:  Systematic Use of Course-Level Student Data
 author: Dr. Clifton Franklund
 job: General Education Coordinator
-date: Spring 2017
+date: June 2017
 output:
   revealjs::revealjs_presentation:
     theme: moon
