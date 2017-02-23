@@ -22,14 +22,18 @@ output:
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
 
-## About Ferris State University
+## Ferris State University
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
 ## Revised General Education
 
-## What is assessment anyhow?
+## What is assessment?
+<blockquote>"Assessment is not a spreadsheet -- it is a conversation"<br />Irmeli Somebody</blockquote>
+<section class = "plain">
+![](images/GREEK_KEY.png)
+</section>
 
 ## Focusing the discussion
 
@@ -77,9 +81,10 @@ When you click the **Knit** button a document will be generated that includes bo
 1. Let's add another, just for fun
 </div>
 <div id="right">
-- More can be added here
-- And more after that
-- I'm tired of this now
+![](images/logo.png)  
+
+- I can add bullets  
+- And images on both sides
 </div>
 
 ## Slide with R Output
@@ -89,8 +94,9 @@ summary(cars)
 ```
 
 ## Slide with Plot
-
+<section class = "plain">
 ```{r pressure}
 plot(pressure)
 ```
+</section>
 
