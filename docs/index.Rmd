@@ -47,7 +47,10 @@ When you click the **Knit** button a document will be generated that includes bo
 </div>
 
 ## Reproducible assessment
-
+<dl>
+<dt>Reproducible assessment</dt>
+<dd>A definition</dd>
+</dl>
 ## Competencies and FLOs
 
 ## Standardizing Measures
