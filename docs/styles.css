@@ -163,6 +163,7 @@ h3.date {
 .reveal dl,
 .reveal ul {
   display: inline-block;
+  width: 90%;
   text-align: left;
   margin: 0 0 0 1em; }
 
