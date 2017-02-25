@@ -51,6 +51,8 @@ When you click the **Knit** button a document will be generated that includes bo
 <dl>
 <dt>Reproducible assessment</dt>
 <dd>A definition</dd>
+<dt>Version control</dt>
+<dd>Talk a bit about git
 </dl>
 ## Competencies and FLOs
 
