@@ -23,9 +23,15 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
 
 ## Ferris State University
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+<div id="left">
+1. This is the first bullet
+1. This is another bullet
+1. Let's add another, just for fun
+</div>
+<div id="right">
+<section class = "plain">
+![](images/clockbelltower.jpg) 
+</section>
 
 ## Revised General Education
 
@@ -47,13 +53,16 @@ When you click the **Knit** button a document will be generated that includes bo
 
 </div>
 
-## Reproducible assessment
-<dl>
-<dt>Reproducible assessment</dt>
-<dd>A definition</dd>
-<dt>Version control</dt>
-<dd>Talk a bit about git
-</dl>
+## Reproducible Assessment
+
+Well-documented and fully open code and data that are publicly available that would allow one to: 
+
+>1. fully audit the computational procedure;  
+>2. replicate and also independently reproduce the results of the research;  
+>3. extend the results or apply the method to new problems.
+
+> Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the Default to Reproducible. Computational Science Research. SIAM News, 46, 4-6.
+
 ## Competencies and FLOs
 
 ## Standardizing Measures
