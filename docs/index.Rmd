@@ -15,7 +15,7 @@ output:
       progress: false
       slideNumber: false
       controls: false
-    css: pdf.css
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
