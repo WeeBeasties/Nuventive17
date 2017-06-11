@@ -13,7 +13,7 @@ output:
     reveal_options:
       navigation: false
       progress: false
-      slideNumber: false
+      slideNumber: true
       controls: false
     css: styles.css
 ---
@@ -26,96 +26,160 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 * West Central Michigan
 * Medium Masters University
 * 14,600 students
-* Revised General Education
+* Recently Revised General Education
+* Used TracDat Since 2008
+
 </div>
 <div id="right">
 <section class = "plain">
 ![](images/clockbelltower.jpg) 
 </section>
 
-## Revised General Education
+## General Education Goal
+>* Track and improve program effectiveness
+>* Program consists of courses
+>* Student preformance is the most valid measure
+>* General Education applies to all students
+>* **Therefore, we plan to measure student performance across all courses in the program**
 
-## What is assessment?
+## Project Scope
+* In a semester...
+
+>* Over 300 different course codes
+>* Touching over 5,000 students
+>* Involving over 300 faculty
+>* Generating over 50,000 SCH
+
+## Project Resources
+>* Program coordinator (me, 50% release)
+>* General Education Committee (advisory)
+>* Budget ($0)
+>* Staff (none)
+>* TracDat
+
+## The Assessment Cycle
+<section class = "plain">
+![](images/oldCycle.png)
+</section>
+
+## The Futile Cycle
+<section class = "plain">
+![](images/hamster.gif)
+</section>
+
+## A Better Model
 <blockquote>"Assessment is not a spreadsheet -- it is a conversation"<br />Irmeli Halinen</blockquote>
 <section class = "plain">
 ![](images/GREEK_KEY.png)
 </section>
 
-## Focusing the discussion
-<section class = "plain">
-![](images/hamster.gif)
-</section>
-
 ## Sustainable assessment
-<br  /> 
-<div style="font-size: 1.5em; font-weight: 800;">
->- Simplify  
->- Standardize  
->- Automate  
+* The three keys to our program assessment strategy:
 
-</div>
+>- **Simplify** — reduce complexity  
+>- **Standardize** — reduce variance
+>- **Automate** — reduce workload
 
-## Reproducible Assessment
+>- Aiming for reproducible processes to increase transparency and encourage engagement
 
-Well-documented and fully open code and data that are publicly available that would allow one to: 
+## Simplify: Core Competencies  
+* Eight competencies: 
 
->1. fully audit the computational procedure;  
->2. replicate and also independently reproduce the results of the research;  
->3. extend the results or apply the method to new problems.
+>* Collaboration, Communication, Culture, Diversity, Natural Sciences, Problem Solving, Quantitative Literacy, Self and Society
+>* Overseen by a faculty subcommittees
+>* Operational definitions and relevance statements
+>* Entered into TracDat as Assessment Units
 
-> Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the Default to Reproducible. Computational Science Research. SIAM News, 46, 4-6.
+## Simplify: Ferris Learning Outcomes
+>* Each competency has four learning outcomes
+>* Based upon what we want our graduating seniors to look like
+>* One outcome measured each semester
+>* Rolling two-year program cycle
+>* Outcomes are mapped to other strategic activities in TracDat
 
-## Competencies and FLOs  
-* First point  
-* Second point
+## Standardize: Measures
+* Created in order to get more uniform reporting into TracDat
 
-## Standardizing Measures
+>* 14 different measures are defined
+>* Each measure has its own:
+>* Scoring system (zero to four point scale)
+>* Analysis interpretation (four threshold values)
+>* Criterion leveling (expectations by course level)
+>* Each measure is present for all FLOs
 
-## Standardizing Pedagogy
+## Standardize: Registering Courses
+* I need to know who is doing what each semester
 
-## Setting up TracDat
+>* Who is collecting data?
+>* What competency is being measured?
+>* What outcome is being measured?
+>* What measure is being used?
+>* All tracked using a Google form
 
-## Registering Courses
+## Standarize: Data Collection
+* This is the biggest step forward for us
 
-## Sending Assignments
+>* Excel workbooks to collect and summarize student results
+>* Four variations: SCORE, PREPOST, NORM, RUBRIC
+>* Common metadata supplied by instructors
+>* Enter student names, IDs, and appropriate evaluations
+>* A standaridized summary is automatically generated
 
-## Standardized Data Collection
+## Standardize: TracDat Assignments
+* Seeking to minimize the need for faculty to log into TracDat
 
-## Aggregating Student Data
+>* Received as an email
+>* Copy and paste summary
+>* Select a few responses from drop-down menus
+>* Add a short reflection
+>* Attach the workbook and submit
 
-## Automating Reporting
+## Automate: TracDat Overview
+* Allow quick synopsis of the program data
+
+>* Dashboard view gives status (i.e. number of results)
+>* Several ad hoc reports are useful:
+>* Assignment completion summary
+>* Data overview
+>* Results and reflections
+
+## Automate: Analysis of Student Data
+* All workbooks are stored in the TracDat document repository
+
+>* Each semester's data is in a separate folder
+>* Download all the workbooks
+>* An R script is used to process the workbooks
+>* All data is aggregated into one csv file
+>* Identifiable information is removed
+
+## Automate: Reporting
+
+>* Using RMarkdown
+>* Reuseable code
+>* PDF reports for printing
+>* HTML reports for distribution and collaboration
 
 ## Promoting Assessment
+* True assessment requires faculty to evaluate and use the results!
+* Need to provide opportunities for interaction
 
-## Disqus
+>* Presentations in meetings
+>* Moderated discussion boards
+>* Comments in Open Science Framework
+>* GitHub pull requests
 
-## Open Science Framework
+## Assessment in Action
+* [Report](https://weebeasties.github.io/1601_SCI1/report-1601.pdf)
+* [Discussion](https://weebeasties.github.io/1601_SCI1/)
+* [OSF](https://doi.org/10.17605/OSF.IO/35GSR)
+* [GitHub](http://github.com/weebeasties/1601_SCI1)
 
-## GitHub
+## Questions?
 
-## Slide with Bullets
-<div id="left">
-1. This is the first bullet
-1. This is another bullet
-1. Let's add another, just for fun
-</div>
-<div id="right">
-![](images/logo.png)  
+* All of these resources are linked to from your handout
+* Licensed using either CC-BY 4.0 or MIT
+* Feel free to contact me if you have questions or comments
 
-- I can add bullets  
-- And images on both sides
-</div>
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
 <section class = "plain">
-```{r pressure}
-plot(pressure)
-```
+![](images/businessCard.jpg) 
 </section>
-
