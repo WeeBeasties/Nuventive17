@@ -4,4 +4,6 @@ This repo contains the presentation entitled _Systematic Use of Course-Level Stu
 
 The slides were generated from an Rmd file using RStudio and revealjs. The R markdown file (index.Rmd) can be found in the /docs folder. When processed by knitr, the slides are produced as an html file (index.html), which is also located in the /docs folder.
 
+A handout was distributed at the talk. An electronic version is a available here as `handout.pdf`.
+
 The completed slides can be viewed online at [http://weebeasties.github.io/Nuventive17](http://weebeasties.github.io/Nuventive17).
