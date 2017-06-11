@@ -21,8 +21,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
+## About Me
 
-## Ferris State University
+
+## About Ferris State
 <div id="left">
 1. This is the first bullet
 1. This is another bullet
@@ -36,7 +38,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ## Revised General Education
 
 ## What is assessment?
-<blockquote>"Assessment is not a spreadsheet -- it is a conversation"<br />Irmeli Somebody</blockquote>
+<blockquote>"Assessment is not a spreadsheet -- it is a conversation"<br />Irmeli Halinen</blockquote>
 <section class = "plain">
 ![](images/GREEK_KEY.png)
 </section>
@@ -63,7 +65,9 @@ Well-documented and fully open code and data that are publicly available that wo
 
 > Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the Default to Reproducible. Computational Science Research. SIAM News, 46, 4-6.
 
-## Competencies and FLOs
+## Competencies and FLOs  
+* First point  
+* Second point
 
 ## Standardizing Measures
 
