@@ -120,7 +120,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 * This is the biggest step forward for us
 
 >* Excel workbooks to collect and summarize student results
->* Four variations: SCORE, PREPOST, NORM, RUBRIC
+>* SCORE, PREPOST, NORM, RUBRIC
 >* Common metadata supplied by instructors
 >* Enter student names, IDs, and appropriate evaluations
 >* A standaridized summary is automatically generated
@@ -173,6 +173,12 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 * [Discussion](https://weebeasties.github.io/1601_SCI1/)
 * [OSF](https://doi.org/10.17605/OSF.IO/35GSR)
 * [GitHub](http://github.com/weebeasties/1601_SCI1)
+
+## Faculty Training
+
+>* Frequent workshops of offered
+>* One-on-one training sessions
+>* Online instructional videos
 
 ## Questions?
 
